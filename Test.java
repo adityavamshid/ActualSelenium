@@ -20,6 +20,7 @@ public class Test {
 		chrome.get("https://www.yahoo.com/");
 		chrome.navigate().back();
 		chrome.navigate().forward();
+		chrome.quit();
 		
 		
 		
